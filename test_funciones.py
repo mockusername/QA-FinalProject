@@ -5,7 +5,7 @@ class TestFunciones(unittest.TestCase):
     def test_crearMatriz_values(self):
         # Estudiar comportamiento cuando el tipo de valor
         # no corresponde con el flujo correcto
-        self.assertRaises(TypeError, crearMatriz, -1)
+        self.assertRaises(ValueError, crearMatriz, -1)
         self.assertRaises(TypeError, crearMatriz, "matriz")
         self.assertRaises(TypeError, crearMatriz, True)
 
