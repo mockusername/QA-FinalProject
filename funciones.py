@@ -283,6 +283,9 @@ def crearCdA():
 
 
 def crearMatriz(pcan):
+	dataType = type(pcan)
+	assert dataType == int
+
     global pfrases
     matriz = []
     nom = ''
