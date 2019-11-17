@@ -285,10 +285,10 @@ def crearCdA():
 def crearMatriz(pcan):
     global pfrases
     if (type(pcan) != int):
-        raise TypeError("Debe utilizar un numero como tipo de dato")
+        raise TypeError
 
     if (pcan < 0):
-        raise ValueError("El valor debe ser mayor a 0")
+        raise ValueError
 
     matriz = []
     nom = ''
