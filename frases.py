@@ -52,7 +52,6 @@ def llamarFBus():
 def abrirPDF():
     wb.open_new(r'C:\Users\thelo\Desktop\Frases\Manual tkinter 8.5 (2013-06-24).pdf')
 
-# Hacer pruebas aquí
 def cerrar():
     num = pcan.get()
     tup = auxllamarFBus(num)
