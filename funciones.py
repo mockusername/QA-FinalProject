@@ -283,10 +283,10 @@ def crearCdA():
 
 
 def crearMatriz(pcan):
-	dataType = type(pcan)
-	assert dataType == int
-
     global pfrases
+    if (type(pcan) != int):
+        raise TypeError
+
     matriz = []
     nom = ''
     cont = 0
